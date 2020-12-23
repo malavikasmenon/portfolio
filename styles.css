@@ -62,6 +62,10 @@ hr {
     list-style: none;
 }
 
+.list-item {
+    padding: 1.5em;
+}
+
 .list-item-inline {
     display: inline;
     padding: 0rem 1rem;
@@ -109,6 +113,10 @@ hr {
     font-size: x-large;
 }
 
+.heading-color {
+    color: var(--primary-color);
+}
+
 .section {
     padding: 2.5rem;
 }
@@ -133,4 +141,22 @@ h3 {
     color: white;
     padding: 1.5rem 1rem;
     text-align: center;
+}
+
+.showcase-list {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.project-heading {
+    margin: 0;
+}
+
+.project-desc {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.list-projects {
+    margin-bottom: 40px;
 }
