@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+    --primary-color: #042987;
+    --offwhite-color: #F5F5F6;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.heading-desc {
+    border: 1px solid black;
+    padding: 1em;
+    width: max-content;
+    margin: auto;
+}
+
+
+/*links*/
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-active {
+    color: white;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero .hero-image {
+    max-width: 350px;
+    max-height: 350px;
+    width: 280px;
+    height: 280px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.hero .hero-heading {
+    font-size: x-large;
+}
+
+.section {
+    padding: 2.5rem;
+}
+
+.section h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+.section-grey {
+    background-color: var(--offwhite-color);
+    padding: 2.5em;
+}
+
+.techno-items {
+    font-weight: lighter;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.5rem 1rem;
+    text-align: center;
+}
